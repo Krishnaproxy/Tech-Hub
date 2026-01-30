@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import {
     LayoutDashboard,
     User,
-    Rocket,
-    Code2,
     Sparkles,
     ArrowRight,
     Layers,
@@ -30,7 +28,7 @@ export default function ProductDemoPage() {
                         <span className="font-black text-xl tracking-tighter uppercase italic">Portfolio<span className="text-[#3B82F6]">Showcase</span></span>
                     </Link>
                     <div className="flex gap-6 items-center">
-                        <Link href="/admin" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1">
+                        <Link href="https://tech-hub-admin-theta.vercel.app/" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1">
                             <LayoutDashboard size={16} /> Admin
                         </Link>
                         <a href="https://web-nova-1uyb.vercel.app/contact" className="bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-full text-sm font-bold transition-all">
@@ -76,7 +74,7 @@ export default function ProductDemoPage() {
                                     Explore My Work <User size={20} />
                                 </a>
                                 <Link
-                                    href="/admin"
+                                    href="https://tech-hub-admin-theta.vercel.app/"
                                     className="flex items-center justify-center gap-3 bg-white/5 border border-white/10 px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition-all"
                                 >
                                     View Admin Panel <LayoutDashboard size={20} />
