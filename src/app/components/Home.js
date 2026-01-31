@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* CATEGORIES SECTION */}
-      <section className="py-20 px-20 max-w-7xl mx-auto z-10 relative">
+      <section className="py-20 px-6 lg:px-20 max-w-7xl mx-auto z-10 relative">
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -223,7 +223,7 @@ export default function Home() {
 
       {/* BEST SELLERS SECTION */}
       <section className="py-32 bg-[#111827]/50 relative z-10 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-20">
           <div className="text-center mb-20">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -283,7 +283,7 @@ export default function Home() {
       </section>
 
       {/* PROMO / CTA SECTION */}
-      <section className="py-20 px-20">
+      <section className="py-20 px-6 lg:px-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -326,7 +326,7 @@ export default function Home() {
       </section>
 
       {/* WHY US SECTION */}
-      <section className="py-10 pb-30 px-20 max-w-7xl mx-auto z-10 relative">
+      <section className="py-10 pb-30 px-6 lg:px-20 max-w-7xl mx-auto z-10 relative">
         <div className="grid md:grid-cols-3 gap-12">
           {[
             {
